@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="style.css" />
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">     
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+    <body>
+        <div class="content">
+            <span>Hola! Create an account</span>
+            <form method="POST">
+                <div>
+                    <label for="NAME">Full Name</label>
+                    <i class="fa fa-user icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="name" id="NAME" placeholder="Full Name" required><br>
+                    <label for="Address1">Address 1</label>
+                    <i class="fas fa-house-user icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="Address" id="Address1" placeholder="Address 1" required><br>
+                    <label for="Address2">Address 2</label>
+                    <i class="fas fa-house-user icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="Address" id="Address1" placeholder="Address 2" required><br>
+                    <label for="City">City</label>
+                    <i class="fas fa-house-user icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="city" id="City" placeholder="City" required><br>
+                    <label for="SPR">State/Province/Region</label>
+                    <i class="fas fa-house-user icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="state" id="SPR" placeholder="State/Province/Region" required><br>
+                    <label for="ZIP">Postalcode/ZIP</label>
+                    <i class="fas fa-house-user icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="zip" id="ZIP" placeholder="Postalcode/ZIP" required><br>
+                    <label for="Country">Country</label>
+                    <i class="fas fa-id-card icon" style="font-size:20px;"></i>
+                    <select id="Country" required>
+                        <option>Please Select</option>
+                        <option>India</option>
+                        <option>Europe</option>
+                        <option>Russia</option>
+                        <option>Australia</option>
+                        <option>Canada</option>
+                    </select><br>
+                    <label for="Email">Email</label>
+                    <i class="fa fa-envelope icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="email" id="Email" placeholder="Email" required><br>
+                    <label for="Phone">Phone Number</label>
+                    <i class="fas fa-phone-alt icon" style="font-size:20px;"></i>
+                    <input class="input-field" type="text" name="phone" id="Phone" placeholder="Phone Number" required><br>
+                <button type="submit" onclick="alert('Thank you')">Sign up</button>
+                </div>
+            </form>
+
+        </div>
+    </body> 
+</html>
